@@ -11,7 +11,7 @@ use user::{User};
 
 #[get("/")]
 fn index() -> String {
-    format!("{}", "Hello, world!")
+    format!("{}", "Hello, world! 3rd Test!")
 }
 
 #[get("/<userId>")]

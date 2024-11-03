@@ -1,6 +1,10 @@
 services:
   web:
     build: .
+    develop:
+      watch:
+        - action: rebuild
+          path: .
     container_name: "rar"
     ports:
       - "8080:8080"
