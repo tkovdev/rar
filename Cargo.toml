@@ -1,0 +1,11 @@
+[package]
+name = "RAR"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.1", features = ["json"] }
+redis = { version = "0.27.4", features = ["tokio-comp", "json"] }
+serde = "1.0.210"
+redis-macros-derive = "0.4.2"
+serde_json = "1.0.128"
